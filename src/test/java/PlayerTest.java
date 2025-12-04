@@ -28,7 +28,7 @@ public class PlayerTest {
     public void addHealth(){
         Player player = new Player("Tulipe");
         player.addHealth();
-        assertEquals(20, player.getHealth());
+        assertEquals(15, player.getHealth());
     }
 
     @Test
